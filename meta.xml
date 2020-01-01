@@ -1,0 +1,56 @@
+<meta>
+    <info name="Multigamemode" type="gamemode" autor="Hizard" version="1.0 Beta" />
+	<script src="server.lua" type="server" />
+	
+	<script src="Race/race.lua" type="server" />
+	<script src="Race/race_client.lua" type="client" />
+	
+	<script src="Design/login_client.lua" type="client" />
+	<script src="Design/selection.lua" type="client" />
+	
+	<script src="Gaming/server.lua" type="server" />
+	<script src="Gaming/client.lua" type="client" />
+	
+	<script src="Settings/mods.lua" type="client" />
+	<script src="Settings/pickups.lua" type="client" />
+	
+	<script src="Other/scoreboard.lua" type="client" />
+	<script src="Other/notification.lua" type="client" />
+	<script src="Other/binds.lua" type="client" />
+	
+    <!-- MODS -->
+    <file src="Mods/nitro.txd"	/>
+    <file src="Mods/nitro.dff" />
+    <file src="Mods/repair.txd" />
+    <file src="Mods/repair.dff" />
+    <file src="Mods/vehiclechange.txd" />
+    <file src="Mods/vehiclechange.dff" />
+    <min_mta_version server="1.3.0-9.03772"></min_mta_version>
+	
+	<!-- SOUNDS -->
+	<file src="Sounds/button1.mp3" />
+	<file src="Sounds/button2.mp3" />
+	
+	<file src="Fonts/GOTHIC.TTF" />
+
+	<!-- IMAGES -->
+	<file src="Images/logo.png" />
+	<file src="Images/logo2.png" />
+	
+	<file src="Images/Notification/success.png" />
+	<file src="Images/Notification/error.png" />
+	<file src="Images/Notification/info.png" />
+	
+	<file src="Images/Login/background.png" />
+	<file src="Images/Login/login_window.png" />
+	<file src="Images/Login/news_updates.png" />
+	<file src="Images/Login/login_button.png" />
+	<file src="Images/Login/guest_button.png" />
+	
+	<file src="Images/Selection/time.png" />
+	<file src="Images/Selection/background.png" />
+	<file src="Images/Selection/Deathmatch.png" />
+	<file src="Images/Selection/Destruction.png" />
+	<file src="Images/Selection/Hunter.png" />
+	<file src="Images/Selection/Training.png" />
+</meta>
